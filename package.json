@@ -1,0 +1,9 @@
+{
+  "name": "starter-react-with-mobx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MatejBransky/starter-react-with-mobx.git",
+  "author": "Matej Bransky <matej.bransky@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
