@@ -1,1 +1,1 @@
-# starter-react-with-mobx
+# starter-react-with-mobx (TypeScript)
