@@ -7,7 +7,7 @@
   "search.exclude": {
     "**/.cache": true,
     "**/node_modules": true,
-    "**/public": true
+    "**/static": true
   },
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
