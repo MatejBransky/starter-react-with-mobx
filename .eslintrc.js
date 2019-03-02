@@ -28,6 +28,8 @@ module.exports = {
   rules: {
     'react/prop-types': 'off', // Types solved by TypeScript
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/prefer-interface': 'off',
   },
   overrides: [
     {
