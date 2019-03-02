@@ -1,4 +1,4 @@
-console.log('Hello World!');
+import React from 'react';
+import { render } from 'react-dom';
 
-const $app: HTMLElement = document.getElementById('app')!;
-$app.innerText = 'Hello World';
+render(<div>Hello World!</div>, document.getElementById('app'));
