@@ -7,6 +7,7 @@
 - Prettier
 - React
 - MobX
+- aliasing in imports `import Foo from "../../Foo"` -> `import Foo from "@/Foo" // maps to "<rootDir>/src/Foo"`
 - .env
 - bundle report (`dist/report.html`)
 - static folder (just copies files into the dist)
