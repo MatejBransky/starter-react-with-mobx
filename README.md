@@ -28,3 +28,27 @@
 ```
 
 - browser compatibility: in `.browserslistrc` ([more info](https://github.com/browserslist/browserslist))
+
+## VS Code extensions
+
+- ESlint
+- Prettier
+- stylelint
+- EditorConfig
+
+_TODO_
+
+```
+code --extensions-dir
+    Set the root path for extensions.
+code --list-extensions
+    List the installed extensions.
+code --show-versions
+    Show versions of installed extensions, when using --list-extension.
+code --install-extension ( | )
+    Installs an extension.
+code --uninstall-extension ( | )
+    Uninstalls an extension.
+code --enable-proposed-api ()
+    Enables proposed API features for extensions. Can receive one or more extension IDs to enable individually.
+```
