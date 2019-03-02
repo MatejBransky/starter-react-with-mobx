@@ -10,7 +10,8 @@
     "build": "rimraf dist && parcel build src/index.html",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
-    "lint:fix": "npm run lint --fix"
+    "lint:fix": "npm run lint --fix",
+    "format": "prettier --write src/**/*.{js,ts,tsx}"
   },
   "devDependencies": {
     "@types/react": "^16.8.6",
