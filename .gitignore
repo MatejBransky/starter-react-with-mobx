@@ -24,3 +24,7 @@ coverage
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# starter-specific (can be removed)
+package-lock.json
+yarn.lock
