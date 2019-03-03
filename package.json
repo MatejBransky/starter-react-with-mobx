@@ -14,7 +14,7 @@
     "format": "prettier --write {src,tests,cypress}/**/*.{js,ts,tsx}",
     "test": "jest",
     "tdd": "jest --watch",
-    "test:e2e": "cypress"
+    "test:e2e": "cypress open"
   },
   "devDependencies": {
     "@types/jest": "^24.0.9",
