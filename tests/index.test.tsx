@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-testing-library';
-import Foo from '@/Foo';
+import TimerView from '@/TimerView';
 
-test('Foo', () => {
-  const { debug } = render(<Foo />);
+test('TimerView', () => {
+  const { debug } = render(<TimerView />);
   debug();
 });
