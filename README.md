@@ -29,6 +29,8 @@
 
 - browser compatibility: in `.browserslistrc` ([more info](https://github.com/browserslist/browserslist))
 
+- port of localhost: (`default: 1234`) but you can change it pkg.script start with option `--port 1111` (you must update `baseUrl` in `cypress.json`)
+
 ## VS Code extensions
 
 - ESlint
