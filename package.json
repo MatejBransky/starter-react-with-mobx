@@ -11,7 +11,7 @@
     "type-check": "tsc --skipLibCheck",
     "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
     "lint:fix": "npm run lint --fix",
-    "format": "prettier --write {src,tests,cypress}/**/*.{js,ts,tsx}",
+    "format": "prettier --write {src,tests,tests-e2e}/**/*.{js,ts,tsx}",
     "test": "jest",
     "tdd": "jest --watch",
     "test:e2e": "cypress open"
