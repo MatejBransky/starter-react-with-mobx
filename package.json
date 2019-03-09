@@ -9,7 +9,7 @@
     "start": "parcel src/index.html",
     "build": "rimraf dist && parcel build src/index.html",
     "type-check": "tsc --skipLibCheck",
-    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+    "lint": "eslint --ext ts --ext tsx --ext js --ext jsx",
     "lint:fix": "npm run lint --fix",
     "format": "prettier --write {src,tests,tests-e2e}/**/*.{js,ts,tsx}",
     "test": "jest",
@@ -17,6 +17,7 @@
     "test:e2e": "cypress open"
   },
   "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.0.3",
     "@types/jest": "^24.0.9",
     "@types/react": "^16.8.6",
     "@types/react-dom": "^16.8.2",
@@ -42,7 +43,9 @@
     "stylelint": "^9.10.1",
     "stylelint-config-recommended": "^2.1.0",
     "ts-jest": "^24.0.0",
-    "typescript": "^3.3.3333"
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6"
   },
   "dependencies": {
     "mobx": "^5.9.0",
