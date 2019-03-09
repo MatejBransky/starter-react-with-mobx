@@ -23,3 +23,15 @@
 //
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+/* eslint @typescript-eslint/no-namespace: 0 */
+
+declare namespace Cypress {
+  interface Chainable {
+    printToConsole: (text: string) => Cypress.Chainable<JQuery>;
+  }
+}
+
+Cypress.Commands.add('printToConsole', (text: string) => {
+  console.log('Print to console: ', text);
+});
