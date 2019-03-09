@@ -1,6 +1,6 @@
 # starter-react-with-mobx (TypeScript)
 
-## Features
+### Features
 
 - TypeScript
 - ESlint
@@ -14,8 +14,10 @@
 - precommit hook: checks types, formats code, lints errors
 - browserslist support
 - VS Code settings
+- unit & integration testing with Jest
+- e2e testing with Cypress (in TypeScript!)
 
-## Options
+### Options
 
 - indentation, tab vs spaces and single/double quotes: in `.prettierrc`:
 
@@ -27,11 +29,18 @@
 }
 ```
 
+and in `.editorconfig`:
+
+```
+indent_style = space
+indent_size = 2
+```
+
 - browser compatibility: in `.browserslistrc` ([more info](https://github.com/browserslist/browserslist))
 
 - port of localhost: (`default: 1234`) but you can change it pkg.script start with option `--port 1111` (you must update `baseUrl` in `cypress.json`)
 
-## VS Code extensions
+### VS Code extensions
 
 - ESlint
 - Prettier
