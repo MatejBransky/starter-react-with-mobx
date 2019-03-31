@@ -17,7 +17,7 @@ module.exports = {
     node: true,
     es6: true,
   },
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -29,6 +29,7 @@ module.exports = {
     'react/prop-types': 'off', // Types solved by TypeScript
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/prefer-interface': 'off',
   },
   overrides: [
